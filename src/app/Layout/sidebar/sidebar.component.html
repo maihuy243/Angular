@@ -1,0 +1,14 @@
+<div class="sideBar">
+  <div class="w-full flex items-center justify-center mb-5">
+    <img
+      src="../../../assets/2048px-Angular_full_color_logo.svg.png"
+      width="70"
+    />
+  </div>
+  <div class="w-full flex flex-col items-center justify-center">
+    <div *ngFor="let menu of menus" class="menu">
+      <span>{{ menu.icon }}</span>
+      <span>{{ menu.label }}</span>
+    </div>
+  </div>
+</div>
